@@ -29,12 +29,12 @@ async def ult(ult):
                 output += "\n© @TeamUltroid"
                 await eor(ult, output)
             elif plug in CMD_HELP:
-                kk = f"Plugin Name-{plug}\n\n™️ BlackForest Commands -\n\n"
+                kk = f"Plugin Name-{plug}\n\n™️  Commands available -\n\n"
                 kk += str(CMD_HELP[plug])
                 await eor(ult, kk)
             else:
                 try:
-                    x = f"Plugin Name-{plug}\n\n™️ BlackForest Commands-\n\n"
+                    x = f"Plugin Name-{plug}\n\n™️ Commands available -\n\n"
                     for d in LIST[plug]:
                         x += HNDLR + d
                         x += "\n"
