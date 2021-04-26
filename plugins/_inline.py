@@ -22,7 +22,7 @@ from . import *
 
 # ================================================#
 notmine = f"This bot is for {OWNER_NAME}"
-ULTROID_PIC = "https://telegra.ph/file/031957757a4f6a5191040.jpg"
+ULTROID_PIC = "https://telegra.ph/file/34044974cd5c6be5f9346.jpg"
 helps = get_string("inline_1")
 
 add_ons = udB.get("ADDONS")
@@ -39,7 +39,7 @@ async def e(o):
     if len(o.text) == 0:
         b = o.builder
         uptime = grt(time.time() - start_time)
-        header = udB.get("ALIVE_TEXT") if udB.get("ALIVE_TEXT") else "Hey,  I am alive."
+        header = udB.get("ALIVE_TEXT") if udB.get("ALIVE_TEXT") else "Hey,  I am Jinda,Sota nh hu m 🤣."
         ALIVEMSG = get_string("alive_1").format(
             header,
             OWNER_NAME,
@@ -58,17 +58,17 @@ async def e(o):
                 text=ALIVEMSG,
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 buttons=[
-                    [Button.url(text="Support Group", url="t.me/UltroidSupport")],
+                    [Button.url(text="BlackForestSupport Group", url="t.me/")],
                     [
                         Button.url(
-                            text="Repo",
-                            url="https://github.com/Teamultroid/Ultroid",
+                            text="BlackForest",
+                            url="",
                         ),
                     ],
                 ],
             ),
         ]
-        await o.answer(res, switch_pm=f"👥 ULTROID PORTAL", switch_pm_param="start")
+        await o.answer(res, switch_pm=f"👥 BlackForest PORTAL", switch_pm_param="start")
 
 
 if Var.BOT_USERNAME is not None and asst is not None:
@@ -93,7 +93,7 @@ if Var.BOT_USERNAME is not None and asst is not None:
             result = builder.article(
                 title="Help Menu",
                 description="Help Menu - UserBot | Telethon ",
-                url="https://t.me/TheUltroid",
+                url="https://t.me/",
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 text=get_string("inline_4").format(
                     OWNER_NAME,
@@ -465,7 +465,7 @@ def paginate_help(page_number, loaded_plugins, prefix):
     if emoji:
         multi, mult2i = emoji, emoji
     else:
-        multi, mult2i = "✘", "✘"
+        multi, mult2i = "♨️", "♨️"
     helpable_plugins = []
     global upage
     upage = page_number
@@ -519,7 +519,7 @@ def paginate_addon(page_number, loaded_plugins, prefix):
     if emoji:
         multi, mult2i = emoji, emoji
     else:
-        multi, mult2i = "✘", "✘"
+        multi, mult2i = "♨️", "♨️"
     helpable_plugins = []
     global addpage
     addpage = page_number
