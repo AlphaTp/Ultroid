@@ -71,6 +71,6 @@ KANGING_STR = [
     "Hehe me stel ur stiker...",
     "Ay look over sum 😚 (☉｡☉)!→\nWhile I kang this...",
     "Roses are red violets are blue, kanging this sticker so my pack looks cool",
-    "Imprisoning this sticker...",
-    "Mr.Steal-Your-Sticker is stealing this sticker... ",
+    " Or batao kaise ho .  this sticker over sum...",
+    "Mr.sum-Your-Sticker is stealing this sticker... ",
 ]
